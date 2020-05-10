@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.6, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- /home/thiago/codenation/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/thiago/codenation/data-science-1
+collecting ... collected 5 items
+
+test_submit.py::test_q1 PASSED                                           [ 20%]
+test_submit.py::test_q2 PASSED                                           [ 40%]
+test_submit.py::test_q3 PASSED                                           [ 60%]
+test_submit.py::test_q4 PASSED                                           [ 80%]
+test_submit.py::test_q5 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+/home/thiago/codenation/venv/lib/python3.7/site-packages/statsmodels/tools/_testing.py:19
+  /home/thiago/codenation/venv/lib/python3.7/site-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+    import pandas.util.testing as tm
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+---- generated xml file: /home/thiago/codenation/data-science-1/output.xml -----
+===================== 5 passed, 1 warnings in 2.36 seconds =====================
